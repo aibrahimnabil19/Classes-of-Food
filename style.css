@@ -8,8 +8,11 @@ a{
 }
 img{
     width: 400px;
+    max-width: 400px;
     height: 400px;
+    max-height: 400px;
     border-radius: 8px;
+    border: 3px solid #004D40;
 }
 h1{
     text-align: center;
@@ -27,15 +30,17 @@ p{
     margin-bottom: 20px;
 }
 ul{
-    list-style: square;
+    list-style-image: url(/images/arrow.png);
+    justify-content: center;
+    display: flex;
+    gap: 4rem;
+    font-weight: 500;
+}
+ol{
     justify-content: center;
     display: flex;
     gap: 4rem;
 }
-.water-lists{
-    list-style: disc;
-}
-
 h1 span{
     font-weight: bold;
     color: #FCFBF9;
