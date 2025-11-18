@@ -1,0 +1,71 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 20px; */
+    background-color: #FCFBF9;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    color: #004D40;
+}
+h2{
+    font-size: 33px;
+    color: #FFC107;
+}
+p{
+    font-size: 16px;
+    color: #102027;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+ul{
+    list-style: square;
+    justify-content: center;
+    display: flex;
+    gap: 4rem;
+}
+.water-lists{
+    list-style: disc;
+}
+
+h1 span{
+    font-weight: bold;
+    color: #FCFBF9;
+    background-color: #004D40;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+section{
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.carbohydrates{
+    background-color: #E3F2FD;;
+}
+.proteins{
+    background-color: #FFEBEE;
+}
+.fats{
+    background-color: #E8F5E9;
+}
+.vitamins{
+    background-color: #FFF3E0;
+}
+.minerals{
+    background-color: #F3E5F5;
+}
+.fiber{
+    background-color: #FFF8E1;
+}
+.water{
+    background-color: #E0F2F1;
+}
