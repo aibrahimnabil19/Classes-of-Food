@@ -30,7 +30,7 @@ p{
     margin-bottom: 20px;
 }
 ul{
-    list-style-image: url(/images/arrow.png);
+    list-style:square;
     justify-content: center;
     display: flex;
     gap: 4rem;
